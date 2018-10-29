@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Update</title>
+</head>
+<body>
+    <div style="margin:50px">
+        <h4>UpDate</h4>
+        <hr />
+
+        <form action="/Student/Load/" method="put">
+            <table>
+                <tr>
+                    <td>Id</td>
+                    <td> <input name="Id" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td> <input name="Name" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>RollNumber</td>
+                    <td> <input name="RollNumber" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Update" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <hr />
+    </div>
+</body>
+</html>
